@@ -1,0 +1,551 @@
+{
+  "Hot Jazz Club": {
+    "name": "Hot Jazz Club",
+    "address": "Hot Jazz Club, Hafenweg 26B, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6384667, 51.9529939]
+    },
+    "geo_point": [7.6384667, 51.9529939]
+  },
+  "Cinema & Kurbelkiste Münster": {
+    "name": "Cinema Filmtheater",
+    "address": "Cinema Filmtheater GmbH, Warendorfer Str. 45-47, 48145 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6269882, 51.9677504]
+    },
+    "geo_point": [7.6269882, 51.9677504]
+  },
+  "Der Kleine Bühnenboden": {
+    "name": "Der Kleine Bühnenboden",
+    "address": "Der Kleine Bühnenboden, Schillerstraße 48a, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185142, 51.9646602]
+    },
+    "geo_point": [7.6185142, 51.9646602]
+  },
+  "Kulturbahnhof Hiltrup": {
+    "name": "Kulturbahnhof Hiltrup",
+    "address": "Kulturbahnhof Hiltrup, Bergiusstraße 15, 48165 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.5645088, 51.9330033]
+    },
+    "geo_point": [7.5645088, 51.9330033]
+  },
+  "Messe und Congress Centrum Halle Münsterland": {
+    "name": "Messe und Congress Centrum Halle Münsterland",
+    "address": "Messe und Congress Centrum Halle Münsterland, Albersloher Weg 32, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6137381, 51.9609226]
+    },
+    "geo_point": [7.6137381, 51.9609226]
+  },
+  "Club Favela": {
+    "name": "Club Favela",
+    "address": "Club Favela, Am Hawerkamp 31, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185142, 51.9591066]
+    },
+    "geo_point": [7.6185142, 51.9591066]
+  },
+  "Heaven Club": {
+    "name": "Heaven Restaurant & Club",
+    "address": "Heaven Restaurant & Club, Hafenweg 31, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185142, 51.9627994]
+    },
+    "geo_point": [7.6185142, 51.9627994]
+  },
+  "Sputnikhalle Münster": {
+    "name": "Sputnik-Halle",
+    "address": "Sputnik-Halle, Am Hawerkamp 31, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6370437, 51.9447817]
+    },
+    "geo_point": [7.6370437, 51.9447817]
+  },
+  "Fusion Club": {
+    "name": "Fusion Club",
+    "address": "Fusion Club, Am Hawerkamp 31, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185142, 51.9589771]
+    },
+    "geo_point": [7.6185142, 51.9589771]
+  },
+  "Walk of Fame": {
+    "name": "Walk of Fame",
+    "address": "Walk of Fame - Mietlocation, Friedrichstraße 9, 48145 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6314214, 51.9592584]
+    },
+    "geo_point": [7.6314214, 51.9592584]
+  },
+  "Conny Kramer": {
+    "name": "Conny Kramer",
+    "address": "Conny Kramer, Am Hawerkamp 31, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185142, 51.9590553]
+    },
+    "geo_point": [7.6185142, 51.9590553]
+  },
+  "Amp Münster": {
+    "name": "Amp",
+    "address": "Amp, Am Hawerkamp 1, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185142, 51.9610094]
+    },
+    "geo_point": [7.6185142, 51.9610094]
+  },
+  "Triptychon": {
+    "name": "Triptychon",
+    "address": "Triptychon, Am Hawerkamp 31, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6284932, 51.9435335]
+    },
+    "geo_point": [7.6284932, 51.9435335]
+  },
+  "Jovel": {
+    "name": "Jovel Music Hall",
+    "address": "Jovel Music Hall, Albersloher Weg 54, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185142, 51.9611858]
+    },
+    "geo_point": [7.6185142, 51.9611858]
+  },
+  "Gleis 22": {
+    "name": "Gleis 22",
+    "address": "Gleis 22, Hafenstraße 34, 48153 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6228025, 51.9556101]
+    },
+    "geo_point": [7.6228025, 51.9556101]
+  },
+  "GOP Varieté-Theater Münster": {
+    "name": "GOP Varieté-Theater Münster",
+    "address": "GOP Varieté-Theater Münster, Bahnhofstraße 20-22, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6312488, 51.9587371]
+    },
+    "geo_point": [7.6312488, 51.9587371]
+  },
+  "Filmwerkstatt Münster": {
+    "name": "Filmwerkstatt Münster",
+    "address": "Filmwerkstatt Münster, Gartenstraße 123, 48147 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6268634, 51.9715177]
+    },
+    "geo_point": [7.6268634, 51.9715177]
+  },
+  "Pension Schmidt": {
+    "name": "Pension Schmidt",
+    "address": "Pension Schmidt, Alter Steinweg 37, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6199788, 51.9659226]
+    },
+    "geo_point": [7.6199788, 51.9659226]
+  },
+  "Kreuzeck-Münster": {
+    "name": "Kreuzeck",
+    "address": "Gaststätte Kreuzeck, Maximilianstraße 41A, 48147 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6266202, 51.9700829]
+    },
+    "geo_point": [7.6266202, 51.9700829]
+  },
+  "Schlossplatz": {
+    "name": "Schlossplatz",
+    "address": "Schlossplatz, 48149 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.615012, 51.9647065]
+    },
+    "geo_point": [7.615012, 51.9647065]
+  },
+  "Schnabulenz": {
+    "name": "Schnabulenz",
+    "address": "Schnabulenz, Geiststraße 50, 48151 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6076305, 51.9596649]
+    },
+    "geo_point": [7.6076305, 51.9596649]
+  },
+  "Heile Welt": {
+    "name": "Heile Welt",
+    "address": "Heile Welt, Hörsterstraße 33, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6251655, 51.9676426]
+    },
+    "geo_point": [7.6251655, 51.9676426]
+  },
+  "Cuba Nova Münster": {
+    "name": "Cuba Nova Münster",
+    "address": "Cuba Nova Münster – Restaurant & Club, Achtermannstraße 10, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6305836, 51.9592823]
+    },
+    "geo_point": [7.6305836, 51.9592823]
+  },
+  "Skaters Palace": {
+    "name": "Skaters Palace",
+    "address": "Skaters Palace, Dahlweg 126, 48153 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6090935, 51.9541854]
+    },
+    "geo_point": [7.6090935, 51.9541854]
+  },
+  "Coconut Beach": {
+    "name": "Coconut Beach",
+    "address": "Coconut Beach, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185142, 51.9627069]
+    },
+    "geo_point": [7.6185142, 51.9627069]
+  },
+  "Teilchen & Beschleuniger": {
+    "name": "Teilchen & Beschleuniger",
+    "address": "Teilchen & Beschleuniger, Wolbecker Str. 55, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.624757, 51.9636979]
+    },
+    "geo_point": [7.624757, 51.9636979]
+  },
+  "Die Linke.SDS Münster": {
+    "name": "DIE LINKE. Kreisverband Münster",
+    "address": "DIE LINKE. Kreisverband Münster, Achtermannstraße 19, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6306938, 51.9566538]
+    },
+    "geo_point": [7.6306938, 51.9566538]
+  },
+  "Alexianer Waschküche": {
+    "name": "Alexianer Waschküche",
+    "address": "Alexianer Waschküche, Bahnhofstraße 6, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6116344, 51.9647613]
+    },
+    "geo_point": [7.6116344, 51.9647613]
+  },
+  "RARE GUITAR": {
+    "name": "RARE GUITAR",
+    "address": "RARE GUITAR, Hafenstraße 64, 48153 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6077176, 51.9599881]
+    },
+    "geo_point": [7.6077176, 51.9599881]
+  },
+  "Jugendkirche effata[!]": {
+    "name": "Jugendkirche effata[!]",
+    "address": "St. Martini, Martinistraße, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6238513, 51.9676702]
+    },
+    "geo_point": [7.6238513, 51.9676702]
+  },
+  "CINEPLEX Münster": {
+    "name": "CINEPLEX Münster",
+    "address": "CINEPLEX Münster, Albersloher Weg 14, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6185571, 51.9618791]
+    },
+    "geo_point": [7.6185571, 51.9618791]
+  },
+  "Baracke Münster": {
+    "name": "Baracke Münster",
+    "address": "Baracke c/o Institut für Politikwissenschaft, Scharnhorststraße 100, 48151 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.5962944, 51.9617993]
+    },
+    "geo_point": [7.5962944, 51.9617993]
+  },
+  "CubaCultur": {
+    "name": "Cuba Cultur",
+    "address": "Cuba Cultur u. Begegnungscentrum Achtermannstr. e. V., Achtermannstraße 10-12, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6203892, 51.9647491]
+    },
+    "geo_point": [7.6203892, 51.9647491]
+  },
+  "Konzertsaal Friedenskapelle": {
+    "name": "Konzertsaal Friedenskapelle",
+    "address": "Konzertsaal Friedenskapelle, Willy-Brandt-Weg 37B, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6169018, 51.9530671]
+    },
+    "geo_point": [7.6169018, 51.9530671]
+  },
+  "Gazelle": {
+    "name": "Gazelle",
+    "address": "Gazelle, Servatiiplatz 1, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6173163, 51.9646602]
+    },
+    "geo_point": [7.6173163, 51.9646602]
+  },
+  "Akademie Franz Hitze Haus": {
+    "name": "Akademie Franz Hitze Haus",
+    "address": "Akademie Franz Hitze Haus, Kardinal-von-Galen-Ring 50, 48149 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6000343, 51.9562513]
+    },
+    "geo_point": [7.6000343, 51.9562513]
+  },
+  "KSHG Münster": {
+    "name": "KSHG Münster",
+    "address": "Katholische Studierenden- und Hochschulgemeinde (KSHG), Frauenstraße 3, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6201793, 51.9669126]
+    },
+    "geo_point": [7.6201793, 51.9669126]
+  },
+  "A2 am See – Restaurant | Bar/Bistro | Veranstaltungen": {
+    "name": "A2 am See",
+    "address": "A2 am See, Annette-Allee 3, 48149 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6105365, 51.9648308]
+    },
+    "geo_point": [7.6105365, 51.9648308]
+  },
+  "Museum für Lackkunst": {
+    "name": "Museum für Lackkunst",
+    "address": "Museum für Lackkunst, Windthorststraße 26, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6200077, 51.963642]
+    },
+    "geo_point": [7.6200077, 51.963642]
+  },
+  "LWL-Museum für Kunst und Kultur": {
+    "name": "LWL-Museum für Kunst und Kultur",
+    "address": "LWL-Museum für Kunst und Kultur, Domplatz 10, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6134167, 51.9656035]
+    },
+    "geo_point": [7.6134167, 51.9656035]
+  },
+  "Boheme Boulette": {
+    "name": "Bohème Boulette",
+    "address": "Bohème Boulette, Hansaring 26, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6375567, 51.9528745]
+    },
+    "geo_point": [7.6375567, 51.9528745]
+  },
+  "Pianobar-Münster-Das Piano": {
+    "name": "Das Piano",
+    "address": "Das Piano, Frauenstraße 46, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6190537, 51.9637917]
+    },
+    "geo_point": [7.6190537, 51.9637917]
+  },
+  "Aula am Aasee": {
+    "name": "Aula am Aasee",
+    "address": "Aula am Aasee, Scharnhorststraße 100, 48151 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6058193, 51.9510511]
+    },
+    "geo_point": [7.6058193, 51.9510511]
+  },
+  "LWL-Museum für Naturkunde mit Planetarium": {
+    "name": "LWL-Museum für Naturkunde",
+    "address": "LWL-Museum für Naturkunde, Sentruper Straße 285, 48161 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.5890871, 51.9493549]
+    },
+    "geo_point": [7.5890871, 51.9493549]
+  },
+  "medienforum münster e.V.": {
+    "name": "medienforum münster e.V.",
+    "address": "medienforum münster e. V., Verspoel 7, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6266889, 51.9578103]
+    },
+    "geo_point": [7.6266889, 51.9578103]
+  },
+  "Eulen & Lerchen": {
+    "name": "Eulen & Lerchen",
+    "address": "Eulen & Lerchen, Hansaring 33, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6386819, 51.9533428]
+    },
+    "geo_point": [7.6386819, 51.9533428]
+  },
+  "Das Blaue Haus": {
+    "name": "Das Blaue Haus",
+    "address": "Das Blaue Haus, Kreuzstraße 16, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6191173, 51.9661523]
+    },
+    "geo_point": [7.6191173, 51.9661523]
+  },
+  "Stadtmuseum Münster": {
+    "name": "Stadtmuseum Münster",
+    "address": "Stadtmuseum, Salzstraße 28, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6308548, 51.9606491]
+    },
+    "geo_point": [7.6308548, 51.9606491]
+  },
+  "Universitätssporthalle Münster": {
+    "name": "Universitätssporthalle Münster",
+    "address": "Universitätssporthalle Münster, Horstmarer Landweg 51, 48149 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.5972969, 51.9703602]
+    },
+    "geo_point": [7.5972969, 51.9703602]
+  },
+  "Fachwerk Gievenbeck": {
+    "name": "Fachwerk Gievenbeck",
+    "address": "Stadt Münster Fachwerk Gievenbeck, Arnheimweg 40, 48161 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.5840523, 51.9673251]
+    },
+    "geo_point": [7.5840523, 51.9673251]
+  },
+  "Pumpenhaus Münster": {
+    "name": "Theater im Pumpenhaus",
+    "address": "Theater im Pumpenhaus, Gartenstraße 123, 48147 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6339955, 51.9732299]
+    },
+    "geo_point": [7.6339955, 51.9732299]
+  },
+  "Das Lux – Barkultur und Grillkunst": {
+    "name": "Restaurant Lux",
+    "address": "Restaurant Lux – Barkultur und Grillkunst, Domplatz 10, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6220183, 51.9613308]
+    },
+    "geo_point": [7.6220183, 51.9613308]
+  },
+  "Stadthalle Hiltrup": {
+    "name": "Stadthalle Hiltrup",
+    "address": "Stadthalle Hiltrup, Westfalenstraße 197, 48165 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6378664, 51.9014593]
+    },
+    "geo_point": [7.6378664, 51.9014593]
+  },
+  "Babel": {
+    "name": "Babel",
+    "address": "Babel, Hansaring 1, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6348081, 51.9530328]
+    },
+    "geo_point": [7.6348081, 51.9530328]
+  },
+  "Rote Lola": {
+    "name": "Babel",
+    "address": "Bar Rote Lola, Albersloher Weg 12, 48155 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6344093, 51.9508533]
+    },
+    "geo_point": [7.6344093, 51.9508533]
+  },
+  "SpecOps network": {
+    "name": "Cafe SpecOps network",
+    "address": "Cafe SpecOps network, Von-Vincke-Straße 5, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6200077, 51.964945]
+    },
+    "geo_point": [7.6200077, 51.964945]
+  },
+  "La Vie – Treffpunkt Gievenbeck": {
+    "name": "La Vie – Treffpunkt Gievenbeck",
+    "address": "La Vie - Treffpunkt Gievenbeck, Dieckmannstraße 127, 48161 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.5783656, 51.9661969]
+    },
+    "geo_point": [7.5783656, 51.9661969]
+  },
+  "neben.an – Ein Laden für alle Fälle": {
+    "name": "neben*an",
+    "address": "neben*an – Ein Laden für alle Fälle, Warendorfer Straße 45, 48145 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6270097, 51.9677504]
+    },
+    "geo_point": [7.6270097, 51.9677504]
+  },
+  "Matrix Bochum": {
+    "name": "Matrix Bochum",
+    "address": "Matrix Bochum, Hauptstraße 200, 44892 Bochum",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.3219961, 51.471529]
+    },
+    "geo_point": [7.3219961, 51.471529]
+  },
+  "Metro": {
+    "name": "Metro",
+    "address": "Metro, Mauritzstraße 30, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6200002, 51.9659226]
+    },
+    "geo_point": [7.6200002, 51.9659226]
+  },
+  "BLACK BOX, Achtermannstraße 10-12, 48143 Münster": {
+    "name": "BLACK BOX im cuba",
+    "address": "Cuba Cultur u. Begegnungscentrum Achtermannstr. e.V., Achtermannstraße 10-12, 48143 Münster",
+    "geo_shape": {
+      "type": "point",
+      "coordinates": [7.6128752, 51.9647613]
+    },
+    "geo_point": [7.6128752, 51.9647613]
+  }
+}
