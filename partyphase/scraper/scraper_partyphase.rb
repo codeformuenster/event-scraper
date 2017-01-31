@@ -91,8 +91,8 @@ module PartyalarmScraper
     end
 
     def parse_events_of_dates(parsed_dates)
-      events = []
       parsed_dates.each do |parsed_date|
+        events = []
         next_element = parsed_date.next_element
 
         loop do
