@@ -136,7 +136,7 @@ module PartyalarmScraper
     end
 
     def start_scraper(url)
-      offset = 1
+      offset = 0
       loop do
         parsed_page = parse_page(url, offset)
         parsed_dates = parsed_page.css('.eme_period')
