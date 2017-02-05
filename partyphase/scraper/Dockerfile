@@ -1,5 +1,5 @@
-# FROM ruby:2.3
-FROM ruby:2.3-alpine
+FROM ruby:2.4
+# FROM ruby:2.4-alpine # fails in `/usr/local/bundle/gems/nokogiri-1.7.0.1/ext/nokogiri`
 
 # throw errors if Gemfile has been modified since Gemfile.lock
 # RUN bundle config --global frozen 1
