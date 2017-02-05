@@ -3,5 +3,6 @@ RUN pip install \
   "elasticsearch~=5.1.0" \
   "certifi~=2017.1.23"
 
+WORKDIR /scripts
 COPY . /scripts
 VOLUME /data
