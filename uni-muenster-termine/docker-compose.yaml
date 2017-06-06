@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  scraper:
+    build: .
+    volumes:
+      - ./data:/tmp/data
+      - ./uni_muenster_termine:/usr/src/app/uni_muenster_termine
+      - ./profile:/root/.ipython/profile_default
