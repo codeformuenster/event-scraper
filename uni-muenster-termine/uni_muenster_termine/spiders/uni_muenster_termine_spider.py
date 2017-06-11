@@ -25,7 +25,7 @@ class UniMuensterTermineSpider(scrapy.Spider):
     start_urls = ['http://www.uni-muenster.de/Rektorat/exec/termine.php?layout=standard-ergebnis&limit=1000']
 
     def parse(self, response):
-        # geolocator = GoogleV3()
+        geolocator = GoogleV3()
         for event in response.xpath('//div[contains(@class,"vevent")]'):
             event_item = EventItem()
             event_item["@context"] = "http://schema.org"
@@ -34,8 +34,8 @@ class UniMuensterTermineSpider(scrapy.Spider):
             address_field = event.xpath('div/div/span[contains(@class, "p-location")]//text()')
             if address_field:
                 address_string = address_field.extract_first().replace('\n',' ')
-                # address = geolocator.geocode(address_string, timeout=10)
-                address = None
+                address = geolocator.geocode(address_string, timeout=10)
+                # address = None
 
             location_item = LocationItem()
             location_item['@type'] = 'Place'
