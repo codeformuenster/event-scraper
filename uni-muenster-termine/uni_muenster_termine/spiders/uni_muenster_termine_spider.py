@@ -73,7 +73,9 @@ class UniMuensterTermineSpider(scrapy.Spider):
             event_item['x-tags'] = 'tags'
             event_item['source'] = response.urljoin(event.xpath('h3/a/@href').extract_first())
             event_item['startDate'] = event.xpath('div/div/span[contains(@class, "dtstart")]/@title').extract_first()
-            event_item['endDate'] = event.xpath('div/div/span[contains(@class, "dtend")]/@title').extract_first()
+            end_date = event.xpath('div/div/span[contains(@class, "dtend")]/@title').extract_first()
+            if end_date:
+                event_item['endDate'] = end_date
             event_item['location'] = location_item
 
             details_page = event_item['source']
@@ -84,12 +86,18 @@ class UniMuensterTermineSpider(scrapy.Spider):
 
     def parse_event(self, response):
         event_item = response.request.meta['event_item']
-        event_item['description'] = response.xpath('//div[contains(@class, "vevent")]//*[self::p or self::em][not(a)]/text()').extract_first()
+        event_item_description = response.xpath('//div[contains(@class, "vevent")]//*[self::p or self::em][not(a)]/text()').extract_first()
+        if event_item_description:
+            event_item['description'] = event_item_description
+        else:
+            event_item['description'] = 'FIXME Missing description'
 
         subheading = response.xpath('//*[@id="inhalt"]/article/div[2]/div/h2/span/text()').extract_first()
         if subheading:
             event_item['description'] = subheading + ':\n\n' + event_item['description']
 
         event_item['x-category'] = response.xpath('//span[contains(@class, "p-category")]/text()').extract_first()
-        event_item['url'] = response.xpath('//a[contains(@class, "p-url")]/@href').extract_first()
+        event_item_url = response.xpath('//a[contains(@class, "p-url")]/@href').extract_first()
+        if event_item_url:
+            event_item['url'] = event_item_url
         return event_item
