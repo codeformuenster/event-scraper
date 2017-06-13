@@ -1,4 +1,4 @@
-version: "2"
+version: "3"
 
 services:
   scraper:
@@ -6,4 +6,4 @@ services:
     volumes:
       - ./data:/tmp/data
       - ./uni_muenster_termine:/usr/src/app/uni_muenster_termine
-      - ./profile:/root/.ipython/profile_default
+      # - ./profile:/root/.ipython/profile_default

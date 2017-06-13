@@ -10,7 +10,6 @@ RUN apk --no-cache add libxslt libffi-dev \
     "ipython~=5.3.0" \
   && apk del .build-deps
 
-
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 
