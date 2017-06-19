@@ -1,31 +1,21 @@
-#!/usr/bin/env python3
-"""
-Open events scraper for Universität Münster Termine
-
-"""
-
 import scrapy
-import geopy
+# import geopy
 
-from geopy.geocoders import GoogleV3
-from geopy.exc import GeocoderTimedOut
+# from geopy.geocoders import GoogleV3
+# from geopy.exc import GeocoderTimedOut
 
-from uni_muenster_termine.items import EventItem
-from uni_muenster_termine.items import OrganizerItem
-from uni_muenster_termine.items import LocationItem
-from uni_muenster_termine.items import GeoItem
-from uni_muenster_termine.items import AddressItem
+from unims_events.items import EventItem, OrganizerItem, LocationItem, GeoItem, AddressItem
 
 country_lookup = {
     'Germany': 'DE'
 }
 
-class UniMuensterTermineSpider(scrapy.Spider):
-    name = 'uni_muenster_termine'
+class UniMuensterEventsSpider(scrapy.Spider):
+    name = 'unims-events'
     start_urls = ['http://www.uni-muenster.de/Rektorat/exec/termine.php?layout=standard-ergebnis&limit=1000']
 
     def parse(self, response):
-        geolocator = GoogleV3()
+        # geolocator = GoogleV3()
         for event in response.xpath('//div[contains(@class,"vevent")]'):
             event_item = EventItem()
             event_item["@context"] = "http://schema.org"
@@ -34,35 +24,35 @@ class UniMuensterTermineSpider(scrapy.Spider):
             address_field = event.xpath('div/div/span[contains(@class, "p-location")]//text()')
             if address_field:
                 address_string = address_field.extract_first().replace('\n',' ')
-                address = geolocator.geocode(address_string, timeout=10)
-                # address = None
+                # address = geolocator.geocode(address_string, timeout=10)
+                address = None
 
             location_item = LocationItem()
             location_item['@type'] = 'Place'
             location_item['name'] = address_string
 
-            if address:
-                geo_item = GeoItem()
-                geo_item['@type'] = 'GeoCoordinates'
-                geo_item['latitude'] = address.latitude
-                geo_item['longitute'] = address.longitude
-                event_item['geo'] = geo_item
-
-                address_item = AddressItem()
-                address_item['@type'] = 'PostalAddress'
-                for component in address.raw['address_components']:
-                    if component['types'][0] == 'postal_code':
-                        address_item['postalCode'] = component['long_name']
-                    if component['types'][0] == 'locality':
-                        address_item['addressLocality'] = component['long_name']
-                    if component['types'][0] == 'route':
-                        address_item['streetAddress'] = component['long_name']
-                    if (component['types'][0] == 'route') and (component['types'][0] == 'street_number'):
-                        address_item['streetAddress'] + ' ' + component['long_name']
-                    if component['types'][0] == 'country':
-                        address_item['addressCountry'] = country_lookup.get(component['long_name'])
-
-                location_item['address'] = address_item
+            # if address:
+            #     geo_item = GeoItem()
+            #     geo_item['@type'] = 'GeoCoordinates'
+            #     geo_item['latitude'] = address.latitude
+            #     geo_item['longitute'] = address.longitude
+            #     event_item['geo'] = geo_item
+            #
+            #     address_item = AddressItem()
+            #     address_item['@type'] = 'PostalAddress'
+            #     for component in address.raw['address_components']:
+            #         if component['types'][0] == 'postal_code':
+            #             address_item['postalCode'] = component['long_name']
+            #         if component['types'][0] == 'locality':
+            #             address_item['addressLocality'] = component['long_name']
+            #         if component['types'][0] == 'route':
+            #             address_item['streetAddress'] = component['long_name']
+            #         if (component['types'][0] == 'route') and (component['types'][0] == 'street_number'):
+            #             address_item['streetAddress'] + ' ' + component['long_name']
+            #         if component['types'][0] == 'country':
+            #             address_item['addressCountry'] = country_lookup.get(component['long_name'])
+            #
+            #     location_item['address'] = address_item
 
             organizer_item = OrganizerItem()
             organizer_item['@type'] = 'Person'

@@ -6,7 +6,7 @@ RUN apk --no-cache add libxslt libffi-dev \
     libxml2-dev libxslt-dev \
   && pip install \
     "scrapy~=1.3.3" \
-    "geopy~=1.11.0" \
+    "minio~=2.2.2" \
     "ipython~=5.3.0" \
   && apk del .build-deps
 
@@ -15,4 +15,4 @@ COPY . /usr/src/app
 
 RUN mkdir /tmp/data
 
-CMD ["scrapy", "crawl", "uni_muenster_termine", "-o", "/tmp/data/uni_muenster_termine.jl"]
+CMD ["scrapy", "crawl", "unims-events"]
