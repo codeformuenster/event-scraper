@@ -5,5 +5,6 @@ services:
     build: .
     volumes:
       - ./data:/tmp/data
-      - ./uni_muenster_termine:/usr/src/app/uni_muenster_termine
+      - .:/usr/src/app
+      # - ./unims-events:/usr/src/app/unims-events
       # - ./profile:/root/.ipython/profile_default
